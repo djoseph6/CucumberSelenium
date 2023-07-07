@@ -21,4 +21,4 @@ Test Case Code(java files):
 - src/test/java/seleniumtests
 
 External input data:
-input folder
+- input folder
