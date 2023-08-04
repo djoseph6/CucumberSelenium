@@ -5,6 +5,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import junit.framework.Assert;
 import util.CommonMethods;
 import util.ConfigReader;
 
@@ -18,6 +19,7 @@ public class LoginScenarios extends CommonMethods{
 	  DOMConfigurator.configure("log4j2.xml");
 		CommonMethods.sendText("admin", loginPage.usernameField);
 	   CommonMethods.sendText("admin", loginPage.passwordField);
+	   
 	}
 
 	@Then("error message is displayed")

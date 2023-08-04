@@ -1,6 +1,7 @@
 package util;
 
 import java.util.Properties;
+
 import java.io.*;
 
 public class ConfigReader {
